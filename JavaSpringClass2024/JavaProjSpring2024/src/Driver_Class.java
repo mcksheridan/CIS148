@@ -9,7 +9,8 @@
  */
 public class Driver_Class {
     public static void main(String[] args) {
-        System.out.println("Reading from Driver_Class");
+        System.out.println("Running Driver_Class...");
         Week01.runWeek(false);
+        Week02.runWeek(true);
     }
 }
