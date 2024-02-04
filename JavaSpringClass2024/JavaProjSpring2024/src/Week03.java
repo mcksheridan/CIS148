@@ -17,10 +17,7 @@ public class Week03 {
     public static void runWeek(boolean run) {
         if (run) {
             System.out.println("Enter the amount of currency you would like to convert.");
-            if (sc.nextDouble() > 0) {
-                System.out.println("Greter than zero");
-            }
-            Double conversionInput = sc.nextDouble() > 0 || sc.nextDouble() < 0 ? sc.nextDouble() : 0.0;
+            Double conversionInput = sc.nextDouble();
             String currencies[] = {"CAD", "EUR", "GBP", "JPY", "ZAR"};
             CurrencyConversionRate rates = new CurrencyConversionRate();
             for (String element : currencies) {
