@@ -16,6 +16,7 @@ public class Driver_Class {
         System.out.println("Running Driver_Class...");
         Week01.runWeek(false);
         Week02.runWeek(false);
-        Week03.runWeek(true);
+        Week03.runWeek(false);
+        Week04.runWeek(true); // Current week
     }
 }
