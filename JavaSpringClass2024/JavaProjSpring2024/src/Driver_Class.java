@@ -7,7 +7,7 @@
 /*
     Program Name: Driver Class
     Programmer: Sheridan McKisick
-    Last Updated: February 8, 2024
+    Last Updated: February 17, 2024
     Synposis: Execute classes from different assignment weeks
 */
 
@@ -17,6 +17,7 @@ public class Driver_Class {
         Week01.runWeek(false);
         Week02.runWeek(false);
         Week03.runWeek(false);
-        Week04.runWeek(true); // Current week
+        Week04.runWeek(false);
+        Week05.runWeek(true); // Current week
     }
 }
